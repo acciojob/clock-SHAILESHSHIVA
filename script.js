@@ -1,6 +1,7 @@
 //your JS code here. If required.
 const p = document.getElementById("clock");
-const timer = new Date().toLocaleString();
+let timer = new Date().toLocaleString();
+
 
 function timer(){
 	p.innerText = timer;
